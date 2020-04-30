@@ -7,6 +7,5 @@ export const youtube = axios.create({
 export const params = {
   part: "snippet",
   maxResults: 2,
-  key: "AIzaSyCJ9S8ll7oZcJVLj_TGH-a-0jbuaDnHRgg",
-  // q: "fish",
+  key: "ADD API KEY",
 };
