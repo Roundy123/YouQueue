@@ -4,9 +4,11 @@ import { Container, Row, Col } from "reactstrap";
 import AddVideos from "./components/AddVideos/AddVideos";
 import NowPlaying from "./components/NowPlaying/NowPlaying";
 import { youtube, params } from "./api/youtube";
-require("dotenv").load();
+require("dotenv").config();
 
 console.log("API key app.js", process.env.YOUTUBE_API_KEY);
+
+console.log("HELLO app:", process.env.HELLO);
 
 export default class App extends Component {
   constructor(props) {
