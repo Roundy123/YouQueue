@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import AddVideos from "./components/AddVideos/AddVideos";
 import NowPlaying from "./components/NowPlaying/NowPlaying";
 import { youtube, params } from "./api/youtube";
-require("dotenv").config();
+require("dotenv").load();
 
 console.log("API key app.js", process.env.YOUTUBE_API_KEY);
 

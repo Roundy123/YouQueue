@@ -1,5 +1,5 @@
 import axios from "axios";
-require("dotenv").config();
+require("dotenv").load();
 console.log("API key server:", process.env.YOUTUBE_API_KEY);
 
 export const youtube = axios.create({
